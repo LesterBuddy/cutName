@@ -1,0 +1,12 @@
+var myArray = [];
+myArray = ["Anita Lester", "blue"];
+function cutName (name){
+	name = myArray[0];
+	full = name.split(" ");
+	return full;
+}
+var myInfo = new Object ();
+myInfo.fullname = cutName(myArray[0]);
+myInfo.favoritecolor = myArray[1];
+myInfo.github = "LesterBuddy";
+console.log(myInfo);
